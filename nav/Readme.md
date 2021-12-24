@@ -2,7 +2,7 @@
 
 <!-- demo here -->
 
-this whole navbar can be called, adding links, dark mode and used by predefined functions.
+this whole navbar can be called, adding links, dark mode, nav state using predefined functons.
 
 let me show you how
 
@@ -56,3 +56,27 @@ addNavLink("link 1", "http://example.com");
   ```javascript
   addNavLink("link #");
   ```
+
+### activating dark mode of nav
+
+```javascript
+navDark();
+```
+
+### closing nav in your own functions inside website
+
+- mobile toggle button will also change on this
+
+```javascript
+navState();
+```
+
+### more features this `nav.js` give
+
+`slr()` it's an alternative to `document.querySelector()`
+
+`slrA()` it's an alternative to `document.querySelectorAll()`
+
+if you are using this you may use these function anywhere in your website
+
+#### working on more, will be available soon. contact me if you want something more added here
