@@ -1,8 +1,8 @@
 # web-elements nav
 
-<!-- demo here -->
+### [`See Demo `](https://webelementsjs.netlify.app/nav/)
 
-this whole navbar can be called, adding links, dark mode, nav state using predefined functons.
+this whole navbar can be called, adding links, nav theme, nav state using predefined functons.
 
 let me show you how
 
@@ -33,15 +33,19 @@ inside your html just write
 <nav></nav>
 ```
 
-- don't write anything inside nav, there are js functions for that
+<img src="https://webelementsjs.netlify.app/nav/images/1.png" />
+
+- don't write anything inside nav (it will be automatically cleared), there are js functions for that
 
 ### let's rename our logo
 
 - write every function after the `nav.js` you added
 
 ```javascript
-setMainUrl("App name");
+setMainUrl("WebElements.js");
 ```
+
+<img src="https://webelementsjs.netlify.app/nav/images/2.png" />
 
 you can also refer this link anywhere else, by default it refers to the base url of your website
 
@@ -55,16 +59,28 @@ setMainUrl("App name", "http://example.com");
 addNavLink("link 1", "http://example.com");
 ```
 
+##### Desktop view
+
+<img src="https://webelementsjs.netlify.app/nav/images/3.png" />
+
+#### Mobile view
+
+<img src="https://webelementsjs.netlify.app/nav/images/3-ii.png" />
+
 - you can leave second value blank it will be reffering to #
   ```javascript
   addNavLink("link #");
   ```
 
-### activating dark mode of nav
+### changing theme of nav
+
+first value = background color, second one color of text
 
 ```javascript
-navDark();
+navTheme("#00cc8e", "#fff");
 ```
+
+<img src="https://webelementsjs.netlify.app/nav/images/4.png" />
 
 ### closing nav in your own functions inside website
 
