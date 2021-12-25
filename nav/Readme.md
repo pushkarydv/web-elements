@@ -8,18 +8,21 @@ let me show you how
 
 ## adding to your website
 
-download this folder and link css and js to your website as shown
+cdn links
 
-css file inside `head`
+css inside `head` before your custom style
 
 ```html
-<link rel="stylesheet" href="/nav.css" />
+<link
+  rel="stylesheet"
+  href="https://webelementsjs.netlify.app/v1/nav/nav.css"
+/>
 ```
 
 javascript file at the end of `body`
 
 ```html
-<script src="/nav.js"></script>
+<script src="https://webelementsjs.netlify.app/v1/nav/nav.js"></script>
 ```
 
 ## Adding navbar
