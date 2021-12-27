@@ -13,10 +13,7 @@ cdn links
 css inside `head` before your custom style
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://webelementsjs.netlify.app/v1/nav/nav.css"
-/>
+<link rel="stylesheet" href="https://webelementsjs.netlify.app/v1/nav/nav.css" />
 ```
 
 javascript file at the end of `body`
