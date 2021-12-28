@@ -34,7 +34,6 @@ add these into `head` of your website
 <meta property="twitter:description" content="description-of-your-site" />
 <meta property="twitter:image" content="url-to-og-image" />
 <!-- links-to-favicons  here maybe generated online or offeline -->
-<link rel="manifest" href="/site.webmanifest" />
 ```
 
 in here `og:` are open graph
@@ -44,6 +43,10 @@ https://freecodetools.org/ogp/
 ### `manifest` in `meta` is not important
 
 The web app manifest is a JSON file that tells the browser about your Web App and how it should behave when installed on the user's desktop or mobile device.
+
+```html
+<link rel="manifest" href="/site.webmanifest" />
+```
 
 ### examples of how they help
 
