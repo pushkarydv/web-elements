@@ -1,6 +1,6 @@
 # web-elements nav
 
-### [`See Demo `](https://webelementsjs.netlify.app/nav/)
+## [`See Demo `](https://webelementsjs.netlify.app/nav/)
 
 this whole navbar can be called, adding links, nav theme, nav state using predefined functons.
 
@@ -34,6 +34,8 @@ inside your html just write
 <img src="https://webelementsjs.netlify.app/nav/images/1.png" />
 
 - don't write anything inside `<nav> </nav>` (it will be automatically cleared), there are js functions for that
+
+### now let's costumize it
 
 ### let's rename our logo
 
