@@ -97,6 +97,7 @@ each class starts with `.we-`
 |  `.we-no-a `   | change porperties of navbar links |
 | `.we-nav-logo` | change porperties of navbar logo  |
 
+- you can see more clases by inspect tool
 - if you are not able to overwrite properties use `!important` eg:
 
 ```css
