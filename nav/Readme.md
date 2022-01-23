@@ -35,7 +35,7 @@ inside your html just write
 
 - don't write anything inside `<nav> </nav>` (it will be automatically cleared), there are js functions for that
 
-### now let's costumize it
+## Now let's costumize it
 
 ### let's rename our logo
 
