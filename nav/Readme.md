@@ -6,17 +6,18 @@ this whole navbar can be called, adding links, nav theme, nav state using predef
 
 let me show you how
 
-## adding to your website
+## adding nav component to your website
 
-cdn links
-
-css inside `head` before your custom style
+link css inside `head` before your custom style
 
 ```html
-<link rel="stylesheet" href="https://webelementsjs.netlify.app/v1/nav/nav.css" />
+<link
+  rel="stylesheet"
+  href="https://webelementsjs.netlify.app/v1/nav/nav.css"
+/>
 ```
 
-javascript file at the end of `body`
+and this js file at the end of `body`
 
 ```html
 <script src="https://webelementsjs.netlify.app/v1/nav/nav.js"></script>
@@ -32,7 +33,7 @@ inside your html just write
 
 <img src="https://webelementsjs.netlify.app/nav/images/1.png" />
 
-- don't write anything inside nav (it will be automatically cleared), there are js functions for that
+- don't write anything inside `<nav> </nav>` (it will be automatically cleared), there are js functions for that
 
 ### let's rename our logo
 
@@ -87,7 +88,26 @@ navTheme("#00cc8e", "#fff");
 navState();
 ```
 
+### if you want to overwrite some classes - this is for you😉
+
+each class starts with `.we-`
+
+|     class      |                use                |
+| :------------: | :-------------------------------: |
+|  `.we-no-a `   | change porperties of navbar links |
+| `.we-nav-logo` | change porperties of navbar logo  |
+
+- if you are not able to overwrite properties use `!important` eg:
+
+```css
+.we-no-a:hover {
+  color: #242b2e !important;
+}
+```
+
 ### more features this `nav.js` give
+
+`navState()` can be used to toggle navbar anytime in your app
 
 `slr()` it's an alternative to `document.querySelector()`
 
