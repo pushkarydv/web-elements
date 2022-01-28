@@ -11,10 +11,7 @@ let me show you how
 link css inside `head` before your custom style
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://webelementsjs.netlify.app/v1/nav/nav.css"
-/>
+<link rel="stylesheet" href="https://webelementsjs.netlify.app/v1/nav/nav.css" />
 ```
 
 and this js file at the end of `body`
