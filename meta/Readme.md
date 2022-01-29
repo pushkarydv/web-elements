@@ -36,10 +36,6 @@ add these into `head` of your website
 <!-- links-to-favicons  here maybe generated online or offeline -->
 ```
 
-in here `og:` are open graph
-you can create them here too
-https://freecodetools.org/ogp/
-
 ### `manifest` in `meta` is not important
 
 The web app manifest is a JSON file that tells the browser about your Web App and how it should behave when installed on the user's desktop or mobile device.
