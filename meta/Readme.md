@@ -46,8 +46,8 @@ The web app manifest is a JSON file that tells the browser about your Web App an
 
 ### examples of how they help
 
-<img src="./images/py.png" />
-<img src="./images/vg.png" />
+<img src="https://raw.githubusercontent.com/pushkarydv/images/main/examples/e1.png" />
+<img src="https://raw.githubusercontent.com/pushkarydv/images/main/examples/e2.png" />
 
 ### thanks of using this repo
 
